@@ -1,0 +1,38 @@
+{
+  "name": "vue-ts-postcss",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^9.3.0",
+    "gsap": "^3.11.3",
+    "lodash": "^4.17.21",
+    "pinia": "^2.0.22",
+    "vue": "^3.2.40"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.186",
+    "@types/node": "^18.8.2",
+    "@vitejs/plugin-vue": "^3.1.2",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.17",
+    "postcss-atroot": "^0.2.3",
+    "postcss-calc": "^8.2.4",
+    "postcss-easy-import": "^4.0.0",
+    "postcss-mixins": "^9.0.4",
+    "postcss-preset-env": "^7.8.2",
+    "postcss-relaxed-unit": "^1.1.1",
+    "postcss-sort-media-queries": "^4.3.0",
+    "postcss-unit": "^0.0.3",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.4",
+    "vite-plugin-ejs": "^1.5.0",
+    "vite-svg-loader": "^3.6.0",
+    "vue-tsc": "^0.40.13"
+  }
+}
